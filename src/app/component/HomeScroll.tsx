@@ -85,7 +85,7 @@ export function HomeScroll({ getCategory }: { getCategory: string }) {
             products.map(product => (
               <Card
                 key={product.id}
-                className="relative w-60 h-60 border-2 cursor-pointer rounded-none"
+                className="relative w-60 h-60 border-none cursor-pointer rounded-none"
                 onClick={() => handleCardClick(product.id)}
               >
                 {/* Container to maintain aspect ratio */}
